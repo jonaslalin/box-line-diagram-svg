@@ -281,9 +281,9 @@ bld._drawBoxLineDiagram =
           d.line.arrowhead & bld.ARROWHEAD_START
           &&
           (
-            d.line.placement == bld.PLACEMENT_LEFT
+            d.line.placement === bld.PLACEMENT_LEFT
             ||
-            d.line.placement == bld.PLACEMENT_RIGHT
+            d.line.placement === bld.PLACEMENT_RIGHT
           )
         ) {
           return d.x1 + arrowheadOptions.width;
@@ -295,9 +295,9 @@ bld._drawBoxLineDiagram =
           d.line.arrowhead & bld.ARROWHEAD_START
           &&
           (
-            d.line.placement == bld.PLACEMENT_TOP
+            d.line.placement === bld.PLACEMENT_TOP
             ||
-            d.line.placement == bld.PLACEMENT_BOTTOM
+            d.line.placement === bld.PLACEMENT_BOTTOM
           )
         ) {
           return d.y1 + arrowheadOptions.width;
@@ -309,9 +309,9 @@ bld._drawBoxLineDiagram =
           d.line.arrowhead & bld.ARROWHEAD_END
           &&
           (
-            d.line.placement == bld.PLACEMENT_LEFT
+            d.line.placement === bld.PLACEMENT_LEFT
             ||
-            d.line.placement == bld.PLACEMENT_RIGHT
+            d.line.placement === bld.PLACEMENT_RIGHT
           )
         ) {
           return d.x2 - arrowheadOptions.width;
@@ -323,9 +323,9 @@ bld._drawBoxLineDiagram =
           d.line.arrowhead & bld.ARROWHEAD_END
           &&
           (
-            d.line.placement == bld.PLACEMENT_TOP
+            d.line.placement === bld.PLACEMENT_TOP
             ||
-            d.line.placement == bld.PLACEMENT_BOTTOM
+            d.line.placement === bld.PLACEMENT_BOTTOM
           )
         ) {
           return d.y2 - arrowheadOptions.width;

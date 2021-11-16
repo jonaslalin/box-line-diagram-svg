@@ -50,7 +50,7 @@ bld.BoxWithCoordinates =
 
 bld.BoxWithCoordinates.prototype.lineX =
   function lineX(n, i) {
-    if (n == 1) {
+    if (n === 1) {
       return this.x + Math.floor(this.box.width / 2);
     }
     var horizontalDistance = Math.floor(
@@ -61,7 +61,7 @@ bld.BoxWithCoordinates.prototype.lineX =
 
 bld.BoxWithCoordinates.prototype.lineY =
   function lineY(n, i) {
-    if (n == 1) {
+    if (n === 1) {
       return this.y + Math.floor(this.box.height / 2);
     }
     var verticalDistance = Math.floor(
@@ -135,9 +135,9 @@ bld.buildBoxLineDiagramWithCoordinates =
       &&
       nLines[bld.PLACEMENT_RIGHT] > 0
       ||
-      nLines[bld.PLACEMENT_LEFT] == 0
+      nLines[bld.PLACEMENT_LEFT] === 0
       &&
-      nLines[bld.PLACEMENT_RIGHT] == 0
+      nLines[bld.PLACEMENT_RIGHT] === 0
     ) {
       boxX = Math.floor((width - box.width) / 2);
     }
@@ -150,9 +150,9 @@ bld.buildBoxLineDiagramWithCoordinates =
       &&
       nLines[bld.PLACEMENT_BOTTOM] > 0
       ||
-      nLines[bld.PLACEMENT_TOP] == 0
+      nLines[bld.PLACEMENT_TOP] === 0
       &&
-      nLines[bld.PLACEMENT_BOTTOM] == 0
+      nLines[bld.PLACEMENT_BOTTOM] === 0
     ) {
       boxY = Math.floor((height - box.height) / 2);
     }
