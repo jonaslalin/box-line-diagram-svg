@@ -1,0 +1,19 @@
+{
+  "name": "box-line-diagram-svg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "box-line-diagram.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonaslalin/box-line-diagram-svg.git"
+  },
+  "author": "Jonas Lalin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonaslalin/box-line-diagram-svg/issues"
+  },
+  "homepage": "https://github.com/jonaslalin/box-line-diagram-svg"
+}
